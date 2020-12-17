@@ -1,0 +1,301 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    background-image: url('tvbg.jpg');
+    background-size: cover;
+}
+
+
+#img #one img{
+    height: 75px;
+    width: 55px;
+}
+#img #two img {
+height: 75px;
+width: 55px;
+}
+a{
+    height: 760px;
+    width: 90px;
+}
+img{
+    height: 90px;
+    width: 150px;
+}
+#online{
+text-align: center;
+}
+#text h1{
+    font-size: 60px;
+    font-family: 'Langar', cursive;
+}
+#title h1{
+    color: rgb(26, 34, 148);
+}
+#products{
+    
+}
+#rowone{
+    display: flex;
+    justify-content: space-around;
+}
+#rowtwo{
+    display: flex;
+    justify-content: space-around;
+}
+#rowthree{
+    display: flex;
+    justify-content: space-around;
+}
+del{
+color: red;
+}
+button{
+background-image: url("addtocart.png");
+height: 10%;
+width: 15%;
+background-size: cover;
+border-radius: 10px;
+float: left;
+}
+#fifteen{
+float: right;
+}
+img{
+background-color: white;
+margin-bottom: 25px;  
+height: 150px;
+width: 150px;
+}
+
+#a{
+    height: 15px;
+    width: 15px;
+    margin-bottom: 250px; 
+    background-color: white;
+}
+#b{
+background-color: white;
+margin-bottom: 25px;  
+height: 15px;
+}
+#c{
+background-color: white;
+margin-bottom: 25px;  
+height: 15px;
+}
+#d{
+background-color: white;
+margin-bottom: 25px;  
+height: 15px;
+}
+#e{
+background-color: white;
+margin-bottom: 25px;  
+height: 15px;
+}
+#f{
+background-color: white;
+margin-bottom: 25px;  
+height: 15px;
+}
+#title h1{
+    color: rgba(14, 129, 39, 0.651);
+}
+#g{
+background-color: white;
+margin-bottom: 25px;  
+height: 15px;
+}
+#h{
+background-color: white;
+margin-bottom: 25px;  
+height: 15px;
+}
+#begin{
+   text-align: center;
+}
+#image{
+    float: left;
+}
+#price{
+   display: flex;
+   justify-content: space-between;
+}
+
+#options{
+    height: 160px;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 0%;
+    }
+a{
+    height: 80px;
+    width: 150px;
+    border: none;
+    /* display: flex;
+    justify-content: space-around; */
+}
+#options a{
+    display: flex;
+    width: 200px;
+}
+#most{
+    float: left;
+    height: 160px;
+    width: 210px;
+    /* background-color: red; */
+    background-image: url('popular.jfif');
+    background-size: cover;
+    border-radius: 0%;
+    border: none;
+    }
+    #social{
+        
+        height: 160px;
+        width: 210px;
+        /* background-color: green; */
+        background-image: url('social.jfif');
+        background-size: cover;
+        border-radius: 0%;
+        border: none;
+        }
+        #shop{
+            float: left;
+            height: 160px;
+            width: 210px;
+            /* background-color: red; */
+            background-image: url('e-commerce.jfif');
+            background-size: cover;
+            border-radius: 0%;
+            border: none;
+            }
+            #news{
+                float: left;
+                height: 160px;
+                width: 210px;
+                /* background-color: green; */
+                background-image: url('news.jfif');
+                background-size: cover;
+                border-radius: 0%;
+                border: none;
+                }
+                #edu{
+                    float: left;
+                    height: 160px;
+                    width: 210px;
+                    background-color: rgb(255, 0, 0);
+                    background-image: url('education.jfif');
+                    background-size: cover;
+                    border-radius: 0%;
+                    border: none;
+                    
+    
+                    }
+                    #edu h1{
+                        font-family: 'Teko', sans-serif;
+                        color: rgb(16, 179, 138);
+                        font-size: 30px;
+                    }
+                    #donate{
+                        float: left;
+                        height: 80px;
+                        width: 210px;
+                        /* background-color: green; */
+                        background-image: url('donate.jfif');
+                        background-size: cover;
+                        border-radius: 0%;
+                        border: none;
+                        }
+                        #tv{
+                            float: left;
+                            height: 160px;
+                            width: 210px;
+                            background-color: red;
+                            background-image: url('tv.jfif');
+                            background-size: cover;
+                            border-radius: 0%;
+                            border: none;
+                            }
+                            #forum{
+                                float: left;
+                                height: 160px;
+                                width: 210px;
+                                background-color: rgb(83, 204, 83);
+                                background-image: url('forum.jfif');
+                                background-size: cover;
+                                border-radius: 0%;
+                                border: none;
+                                }
+                                #blogs{
+                                    float: left;
+                                    height: 160px;
+                                    width: 210px;
+                                    background-color: rgb(245, 0, 0);
+                                    background-image: url('weblog.jfif');
+                                    background-size: cover;
+                                    border-radius: 0%;
+                                    border: none;
+                                    }
+                                  
+                                    #options{
+                                        display: flex;
+                                        justify-content: space-around;
+                                     
+                                    }
+                                    #most h1{
+                                        color: rgba(0, 47, 255, 0.705);
+                                        font-family: 'JetBrains Mono', monospace;
+                                        font-size: 25px;
+                                        
+                                    }
+                                    #shop h1{
+                                        font-family: 'Oswald', sans-serif;
+                                        font-size: 29px;
+                                        color: rgb(36, 94, 252);
+                                    }
+                                #tv h1{
+                                    font-family: 'Playfair Display', serif;
+                                    font-size: 20px;
+                                    color: rgb(236, 252, 16);
+                                }
+                                #forum h1{
+                                    font-family: 'Roboto Mono', monospace;
+                                    color: rgb(0, 162, 255);
+                                }
+                                #blogs h1{
+                                    color: rgb(207, 26, 26);
+                                    font-size: 34px;
+                                    
+                                }
+                              
+                                button :hover{
+                                    cursor: pointer;
+                                }
+                                #title h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+                                }
+                        a :hover{
+                            cursor: pointer;
+                        }
+                           #books{
+                            float: left;
+                            height: 160px;
+                            width: 210px;
+                            /* background-color: rgb(83, 204, 83); */
+                            background-image: url('books.jpg');
+                            background-size: cover;
+                            border-radius: 0%;
+                            border: none;
+                           } 
+                           #books h1{
+                               color: rgb(255, 217, 0);
+                           }    
+    
